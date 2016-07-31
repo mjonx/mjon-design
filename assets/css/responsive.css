@@ -1,0 +1,717 @@
+
+/* ===================================================
+
+   ItsMe Media Queries
+
+   TOC :
+
+	## Laptop
+	## Tablet
+	## Small Tablet
+	## Small Tablet Portrait
+	## Smallest Tablet & Mobile
+	## Small Mobile
+	## Smallest Tablet Portrait
+	## Small Mobile Portrait
+
+====================================================== */
+
+
+
+/*======= Laptop ======*/
+@media (max-width: 1400px) {
+	.page-content-section-area .page-content-wrapper {
+		padding-top: 11%;
+	}
+	.combo-container {
+		margin-bottom: 15%;
+	}
+	.combo-title {
+		font-size: 48px;
+	}
+
+	.menu-bar {
+		margin-bottom: 120px;
+	}
+
+	.parallax-menu li a {
+		font-size: 40px;
+		padding: 20px 20px 20px 60px;
+	}
+
+	.single-port-item {
+		width: 33.1%;
+	}
+
+	.menu-page .left-section {
+		padding-top: 12%;
+	}
+
+	.menu-page .right-section {
+		padding-top: 9%;
+	}
+
+	.resume-sec-title {
+		font-size: 42px;
+	}
+}
+
+
+/*======= Tablet =====*/
+@media (max-width: 1100px) {
+	h3, .h3 {
+		font-size: 25px;
+	}
+
+	.page-content-section-area .page-content-wrapper {
+		padding-top: 22%;
+	}
+
+	.combo-container {
+		margin-bottom: 21%;
+	}
+
+	.menu-bar {
+		margin-bottom: 140px;
+	}
+
+	.icon-sec {
+		font-size: 50px;
+	}
+	.service-content .service-title {
+		font-size: 20px;
+	}
+
+	.go-to-sec-title {
+		font-size: 25px;
+	}
+
+	.service-section {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.s-area {
+		padding: 0px;
+	}
+
+	.st-area i {
+		font-size: 45px;
+	}
+
+	.st-number {
+		font-size: 32px;
+	}
+
+	.resume-sec-title {
+		font-size: 36px;
+	}
+
+	.tes-thumb-ctrl-lists li:hover {
+		-webkit-transform: scale(1);
+		    -ms-transform: scale(1);
+		        transform: scale(1);
+		opacity: .5;
+		filter: alpha(opacity=50);
+	}
+
+	.menu-page .left-section {
+		padding-top: 20%;
+	}
+
+	.menu-page .right-section {
+		padding-top: 18%;
+	}
+
+	.parallax-menu li a {
+		font-size: 55px;
+		padding-left: 50px;
+	}
+
+	.single-timeline {
+		padding-left: 13%;
+	}
+
+	.single-timeline:last-child {
+		padding-bottom: 40px;
+	}
+
+	.skill-list {
+		margin-bottom: 50px;
+	}
+
+	.recognition-list {
+		margin-bottom: 50px;
+	}
+}
+
+
+/*======= Small Tablet =====*/
+@media (max-width: 991px) {
+	.btn {
+		padding: 12px 30px;
+		font-size: 11px;
+		font-weight: 600;
+	}
+
+	.btn i {
+		top: 14px;
+	}
+
+	.btn:hover {
+		padding-left: 45px;
+		padding-right: 15px;
+	}
+
+	.btn:hover i {
+		left: 16px;
+	}
+
+	.my-pic-bg {
+		display: block;
+	}
+
+	.my-bio {
+	 	padding: 12% 7%;
+		display: block;
+	}
+
+	.combo-title {
+		font-size: 40px;
+	}
+
+	.page-twiker {
+		background-color: #7FC2BB;
+		text-align: center;
+	}
+
+	.page-twiker .why-best-title {
+		margin: 20px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.page-twiker .btn {
+		margin: 20px;
+		vertical-align: middle;
+	}
+
+	.service-section {
+		padding: 12% 7% 4%;
+	}
+
+	.st-area i {
+		font-size: 40px;
+		margin-right: 8px;
+		margin-bottom: 4px;
+	}
+
+	.st-number {
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	.why-best {
+		padding: 12% 7%;
+	}
+
+	.page-twiker {
+		padding: 8% 6%;
+		background-color: #7FC2BB;
+	}
+
+
+	.resume-left-area {
+		padding: 33px 0px;
+		height: 170px;
+	}
+
+	.resume-right-area {
+		padding-top: 12%;
+		padding-bottom: 90px;
+		z-index: 1;
+	}
+
+	.resume-sec-title-wrapper {
+		padding: 32px 30px 28px;
+	}
+
+	.resume-sec-title {
+		font-size: 34px;
+	}
+
+	.timelines,
+	.skill-lists,
+	.recognition-lists {
+		margin: 0px 7%;
+	}
+
+	.menu-page .left-section {
+		display: none;
+	}
+
+	.menu-page .right-section {
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu-area {
+		left: 50%;
+		margin-left: -19px;
+		right: auto;
+		top: 40px;
+	}
+
+	.menu-area .on-page-menu {
+		display: none;
+	}
+
+	.bottom-section .right-menu {
+		right: 35px;
+		left: auto;
+		top: 35px;
+	}
+
+	.menu-bar {
+		padding: 8px;
+		margin: 0px;
+	}
+
+	.bottom-section .menu-bar {
+		color: #FFFFFF;
+		background-color: #2D3E50;
+		font-size: 19px;
+	}
+
+	.menu-page .menu-bar {
+		background-color: transparent;
+	}
+
+	.parallax-menu li a {
+		padding: 20px;
+	}
+
+	.single-port-item {
+		width: 50%;
+	}
+
+	.portfolio-section {
+		padding: 12% 6%;
+	}
+
+	.portfolio-filters-area {
+		margin-bottom: 10%;
+	}
+
+	.testimonial-section {
+		padding: 12% 0px;
+	}
+
+	.contact-info-wrapper,
+	.contact-form {
+		padding: 12% 7%;
+	}
+
+	.custom-bs-style .input-group .form-control {
+		font-size: 13px;
+	}
+
+	.contact-info-lists li a {
+		font-size: 13px;
+	}
+
+	.social li a {
+		width: 36px;
+		height: 36px;
+	}
+
+	.social li a i {
+		line-height: 36px;
+	}
+
+}
+
+
+/*======= Small Tablet Portrait =====*/
+@media (max-width: 800px) and (min-height: 1000px) {
+
+	.menu-area {
+		top: 80px;
+	}
+
+	.menu-page .right-section {
+		padding-top: 30%;
+	}
+
+	.page-content-section-area .page-content-wrapper {
+		padding-top: 40%;
+	}
+
+	.combo-container {
+		margin-bottom: 30%;
+	}
+
+	.modal-dialog {
+		margin: 15% auto;
+	}
+}
+
+
+/*======= Smallest Tablet & Mobile =====*/
+@media (max-width: 767px) {
+	.combo-title {
+		font-size: 34px;
+	}
+
+	.s-area {
+		padding: 0px;
+	}
+
+	.resume-left-area {
+		padding: 28px 0px;
+		height: 160px;
+	}
+
+	.my-pic-bg {
+		height: 340px;
+	}
+
+	.single-testimonial blockquote {
+		font-size: 15px;
+	}
+
+	.contact-info-wrapper,
+	.contact-form {
+		height: auto !important;
+	}
+
+	.single-timeline {
+		padding-left: 15%;
+		padding-bottom: 10%;
+	}
+
+	.single-timeline:last-child {
+		padding-bottom: 30px;
+	}
+
+	.single-port-item .protfolio-content,
+	.single-port-item:hover .protfolio-content {
+		opacity: 0 !important;
+		filter: alpha(opacity=0);
+	}
+}
+
+
+/*======= Small Mobile =====*/
+@media (max-width: 500px) {
+	h3, .h3 {
+		font-size: 22px;
+	}
+
+	.menu-area {
+		top: 25px;
+		margin-left: -17px;
+	}
+
+	.menu-bar {
+		font-size: 21px;
+	}
+
+	.menu-page .right-section {
+		padding-top: 17%;
+	}
+
+	.bottom-section .right-menu {
+		right: 20px;
+		top: 20px;
+	}
+
+	.parallax-menu li a {
+		font-size: 30px;
+		padding: 10px;
+		letter-spacing: 1px;
+	}
+
+	.page-content-section-area .page-content-wrapper {
+		padding-top: 20%;
+	}
+
+	.combo-container {
+		margin-bottom: 10%;
+	}
+
+	.combo-title {
+		font-size: 34px;
+		margin-bottom: 15px;
+	}
+
+	.combo-des {
+		font-size: 15px;
+	}
+
+	.mouse {
+		width: 25px;
+		height: 42px;
+		border-radius: 12px;
+	}
+
+	.my-bio {
+		padding: 12% 9%;
+	}
+
+	.my-pic-bg {
+		height: 260px;
+	}
+
+	.service-section {
+		padding: 12% 9% 5%;
+	}
+
+	.single-s-area {
+		margin-bottom: 10%;
+	}
+
+	.icon-sec {
+		font-size: 42px;
+	}
+
+	.service-content .service-title {
+		font-size: 18px;
+	}
+
+	.why-best {
+		padding: 12% 9%;
+	}
+
+	.go-to-sec-title {
+		font-size: 20px;
+	}
+
+	.resume-sec-title-wrapper {
+		padding: 21px 20px 19px;
+	}
+
+	.resume-left-area {
+		padding-top: 18px;
+		padding-bottom: 16px;
+		height: 110px;
+	}
+
+	.resume-sec-title {
+		font-size: 28px;
+		letter-spacing: 1px;
+	}
+
+	.timelines,
+	.skill-lists,
+	.recognition-lists {
+		margin: 0px;
+	}
+
+	.timeline-title,
+	.skill-title,
+	.recognition-title {
+		font-size: 20px;
+	}
+
+	.single-timeline {
+		padding-bottom: 8%;
+	}
+
+	.single-timeline:last-child {
+		padding-bottom: 13px;
+	}
+
+	.timeline-time {
+		margin-bottom: 20px;
+	}
+
+	.recognition-left-sec {
+		font-size: 40px;
+		margin-right: 15px;
+		width: 42px;
+	}
+
+	.single-port-item {
+		width: 100%;
+	}
+
+	.portfolio-filters li a {
+		padding: 6px 8px;
+		font-size: 12px;
+	}
+
+	.single-testimonial cite {
+		font-size: 15px;
+	}
+
+	.tes-thumb-ctrl-lists li {
+		width: 55px;
+		height: 55px;
+		margin: 0px 10px;
+	}
+
+	.contact-info-wrapper,
+	.contact-form {
+		padding: 12% 9%;
+	}
+
+	.contactmetitle {
+		margin-bottom: 40px;
+	}
+
+	ul.contact-info-lists {
+		margin-bottom: 70px;
+	}
+
+	.custom-bs-style .form-group:last-child {
+		margin-top: 40px;
+	}
+
+	#map {
+		height: 270px !important;
+	}
+}
+
+
+/*======= Smallest Tablet Portrait =====*/
+@media (max-width: 620px) and (min-height: 450px) {
+
+	.menu-area {
+		top: 70px;
+	}
+
+	.menu-page .right-section {
+		padding-top: 170px;
+	}
+
+	.page-content-section-area .page-content-wrapper {
+		padding-top: 170px;
+	}
+
+	.combo-container {
+		margin-bottom: 30%;
+	}
+
+	.modal-dialog {
+		margin: 15% auto;
+	}
+}
+
+
+/*======= Small Mobile Portrait =====*/
+@media (max-width: 400px) and (min-height: 400px) {
+
+	.menu-area {
+		top: 40px;
+	}
+
+	.page-content-section-area .page-content-wrapper {
+		padding-top: 130px;
+	}
+
+	.menu-page .right-section {
+		padding-top: 130px;
+	}
+
+	.bottom-section .right-menu {
+		right: 17px;
+		top: 17px;
+	}
+
+	.parallax-menu li a {
+		padding: 15px;
+	}
+
+	.combo-container {
+		margin-bottom: 40%;
+	}
+
+	.combo-title {
+		font-size: 28px;
+	}
+
+	.combo-des {
+		font-size: 14px;
+	}
+
+	.my-pic-bg {
+		font-size: 180px;
+	}
+
+	.st-area i {
+		font-size: 30px;
+	}
+
+	.st-number {
+		font-size: 25px;
+	}
+
+	.resume-left-area {
+		padding: 11px 0px;
+		height: 90px;
+	}
+
+	.resume-sec-title {
+		font-size: 22px;
+	}
+
+	.resume-right-area > div {
+		padding: 0px;
+	}
+
+	.timeline-title,
+	.skill-title,
+	.recognition-title {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.single-timeline {
+		padding-left: 20%;
+		padding-bottom: 12%;
+	}
+
+	.single-timeline:after {
+		top: -12px;
+	}
+
+	.timeline-time {
+		font-size: 15px;
+	}
+
+	.recognition-left-sec {
+		width: auto;
+		text-align: left;
+		float: none;
+		margin-bottom: 5px;
+	}
+
+	.recognition-right-sec {
+		float: none;
+		width: 100%;
+	}
+
+	.go-to-page-title-common {
+		margin: 15px 0px;
+		display: block;
+	}
+
+	.page-call-section .btn {
+		margin: 15px 0px;
+	}
+
+	.single-testimonial {
+		margin-bottom: 35px;
+	}
+
+	.single-testimonial blockquote {
+		font-size: 14px;
+	}
+
+	.tes-thumb-ctrl-lists li {
+		width: 40px;
+		height: 40px;
+		margin: 10px;
+	}
+}

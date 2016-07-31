@@ -1,0 +1,75 @@
+a {
+    color: #2D3E50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #88d0c7;
+    text-decoration: none;
+}
+
+a.white-link:hover{
+  color: #fff;
+}
+
+.right-menu li.active a {
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.right-menu li a {
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.logo {
+  max-width: 260px;
+  margin-bottom: 40px;
+}
+
+.my-pic-bg {
+    background-image: url("../../img/avater-mjon.jpg");
+}
+
+.bottom-row {
+  background-color: #88D0C7;
+}
+
+.resume-block {
+  background-color: #88D0C7;
+}
+
+.why-best-slider-controller {
+  font-weight: bold;
+}
+
+.why-best-title {
+    color: #fff;
+}
+
+.why-best-sub-title {
+  color: #fff;
+}
+
+.page-twiker {
+  background-color: rgba(45, 62, 80, 0.1);
+}
+
+.page-twiker .btn.btn-dark-red.reverse:hover {
+    color: #fff;
+    background-color: #292E3C;
+    border-color: #292E3C;
+}
+
+/* -- Resume page -- */
+
+.location {
+  color: #88D0C7;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+/* -- Contact page -- */
+.contact-info-wrapper {
+    background-color: #88d0c7;
+}
